@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { HomePage } from '../src/pages/homePage';
+import { HomePage } from './pages/homePage';
 import { PayPage } from './pages/payPage';
 
 export const useRoutes = () => {
